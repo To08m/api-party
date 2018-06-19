@@ -21,6 +21,13 @@ class Poke extends Component {
   render() {
     return (
       <div className="Pokemon" >
+    < audio id="theme" autoplay controls>
+        <source
+            src="PokémonThemeSong.mp3"/>
+        Your browser does not support the <code>audio</code> element.
+    </audio>
+        
+      
         <img id="dex" 
           src="https://static.tumblr.com/eecb19a7a4a6aed08dc9abd6238616ec/qmjablj/ah1na2x1q/tumblr_static_pokedex.png"
         />
