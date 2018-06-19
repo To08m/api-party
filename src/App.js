@@ -12,6 +12,10 @@ class App extends Component {
         <div className="App-header">
           <h1>National Pokedex</h1>
           <h3>Gotta catch 'em all</h3>
+          <img 
+            id="click"
+            src="https://www.freeiconspng.com/uploads/pokeball-icon-15.png" 
+          />
         </div>
         <ul className="navLinks">
         <li>

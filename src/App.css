@@ -6,10 +6,10 @@
 }
 
 .App-header {
-  background-color: #222;
+  background-color: rgb(230, 15, 15);
   height: 200px;
   padding: 20px;
-  color: white;
+  color: black;
 }
 
 h1 {
@@ -47,4 +47,10 @@ h3 {
 
 .navLinks a:hover {
   color: #0184be;
+}
+
+#click{
+  height: 60px;
+  width:60px;
+  margin-top: -35px;
 }
