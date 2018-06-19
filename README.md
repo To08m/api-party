@@ -1,3 +1,11 @@
+## TODO
+
+* reformat pictures to appear centered no matter the window
+* create drop down to form of available choices
+* add stats and type
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
