@@ -3,6 +3,7 @@
 * reformat pictures to appear centered no matter the window
 * create drop down to form of available choices
 * add stats and type
+* firebase hosting and deployment
 
 
 
