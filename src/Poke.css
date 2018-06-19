@@ -11,8 +11,10 @@
     
    position: absolute;
    float: left;
-    right: 1065px;
-    bottom: 160px;
+    right: 1035px;
+    bottom: 146px;
+    height:150px;
+    width:150px;
     
 }
 
