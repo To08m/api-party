@@ -1,0 +1,22 @@
+#dex{
+    color: black;
+    float: left;
+    margin-left: 250px;
+    margin-top: -30px;
+    position: relative;
+}
+
+#pok{
+    
+   position: absolute;
+   float: left;
+    right: 1065px;
+    bottom: 160px;
+    
+}
+
+ul li{
+    color: blue;
+    list-style-type: none;
+    align-content: center;
+}

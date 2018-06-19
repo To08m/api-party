@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import { Route, Switch, NavLink } from 'react-router-dom'
 
 import './App.css'
+import Poke from './Poke'
 import Github from './Github'
 
 class App extends Component {
@@ -9,16 +10,20 @@ class App extends Component {
     return (
       <div className="App">
         <div className="App-header">
-          <h3>Ain't no party like an</h3>
-          <h1>API Party</h1>
+          <h1>National Pokedex</h1>
+          <h3>Gotta catch 'em all</h3>
         </div>
         <ul className="navLinks">
+        <li>
+            <NavLink to="/github">Github API</NavLink>
+          </li>
           <li>
-            <NavLink to="/github">GitHub API</NavLink>
+            <NavLink to="/pokemon">Poke API</NavLink>
           </li>
         </ul>
         <Switch>
           <Route path="/github" component={Github} />
+          <Route path="/pokemon" component={Poke} />
           <Route
             render={
               () => (
@@ -27,6 +32,7 @@ class App extends Component {
             }
           />
         </Switch>
+          
       </div>
     )
   }
